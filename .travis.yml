@@ -6,7 +6,4 @@ branches:
 install:
 - pip install pelican ghp-import markdown
 script:
-- make publish 
-env:
- global:
-  secure: 9c4e0869f3e340273181ad44d3e1e1a7967cd91e
+- make publish github
